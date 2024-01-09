@@ -2,7 +2,7 @@
 
 This repository contains the code for machine learning models designed to predict the outcomes of horse races, with SHAP (SHapley Additive exPlanations) interpretation incorporated for enhanced model interpretability. The project utilizes a diverse set of features and employs state-of-the-art algorithms, including XGBoost and TabNet.
 
-![Alt text](https://ibb.co/VYw0D5M)
+![Alt text](horse_SHAP_cover.png)
 ## Background:
 Horse racing remains a reflection of Hong Kong's rich history and has become an integral part of the daily lives of the local population. 
 
