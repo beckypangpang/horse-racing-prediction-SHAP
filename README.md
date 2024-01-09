@@ -1,12 +1,8 @@
 # Horse Racing Outcome Prediction with SHAP Interpretation
 
-This repository contains the code for machine learning models designed to predict the outcomes of horse races, with SHAP (SHapley Additive exPlanations) interpretation incorporated for enhanced model interpretability. The project utilizes a diverse set of features and employs state-of-the-art algorithms, including XGBoost and TabNet.
-
-
-<img src="horse_SHAP_cover.png" alt="Alt Text" width="720"/>
-## Overview:
 Modern horse racing, originating in the mid-to-late 1700s in England, has sustained its popularity in sports betting. This repository presents a study that delves into uncovering the influential factors affecting horse race outcomes. Utilizing the Hong Kong Horse Racing Dataset from Kaggle, we explore and analyze various machine-learning models to predict whether a horse will secure a top-three position
 
+<img src="horse_SHAP_cover.png" alt="Alt Text" width="720"/>
 
 ## Approach
 Our focus is using SHAP (SHapley Additive exPlanations) to understand our models better. SHAP helps us see how each model makes predictions. We aim to provide a clear view of why our models choose certain outcomes. We also look at individual races, considering a winning and losing horse for a closer look.
