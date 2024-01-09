@@ -2,10 +2,15 @@
 
 This repository contains the code for machine learning models designed to predict the outcomes of horse races, with SHAP (SHapley Additive exPlanations) interpretation incorporated for enhanced model interpretability. The project utilizes a diverse set of features and employs state-of-the-art algorithms, including XGBoost and TabNet.
 
+![Alt text](https://entertainment.hkjc.com/entertainment/common/images/go-racing/raceday-daytime.jpg)
+## Background:
+Horse racing remains a reflection of Hong Kong's rich history and has become an integral part of the daily lives of the local population. 
+
+
 ## Key Features:
 
 ### Dataset Exploration
-Comprehensive exploration of the Hong Kong Horse Racing Dataset from Kaggle.
+A comprehensive exploration of the Hong Kong Horse Racing Dataset from Kaggle.
 
 ### Model Construction
 Development of multiple models, including a pre-trained TabNet model and an optimized XGBoost model.
