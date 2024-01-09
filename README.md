@@ -1,6 +1,8 @@
 # Horse Racing Outcome Prediction with SHAP Interpretation
 
-Modern horse racing, originating in the mid-to-late 1700s in England, has sustained its popularity in sports betting. This repository presents a study that delves into uncovering the influential factors affecting horse race outcomes. Utilizing the Hong Kong Horse Racing Dataset from Kaggle, we explore and analyze various machine-learning models to predict whether a horse will secure a top-three position
+Modern horse racing, originating in the mid-to-late 1700s in England, has sustained its popularity in sports betting. This repository presents a study that delves into uncovering the influential factors affecting horse race outcomes. Utilizing the Hong Kong Horse Racing Dataset from Kaggle, we explore and analyze various machine-learning models to predict whether a horse will secure a top-three position. 
+
+The research focuses on interpreting both the optimal model and a pre-trained tabular model using SHAP (SHapley Additive exPlanations). SHAP is an explainability model that is based on the Shapley values method. It explains how individual predictions are made by a machine learning model. 
 
 <img src="horse_SHAP_cover.png" alt="Alt Text" width="720"/>
 
@@ -10,19 +12,12 @@ Our focus is using SHAP (SHapley Additive exPlanations) to understand our models
 ## SHAP Variations
 We use different versions of SHAP, like Kernel SHAP and Tree SHAP, to analyze our models. This helps us get a full picture of how the best XGBoost model and a pre-trained TabNet model come to their conclusions.
 
-## Key Features:
+## Methodology:
 
-### Dataset Exploration
-A comprehensive exploration of the Hong Kong Horse Racing Dataset from Kaggle.
-
-### Model Construction
-Development of multiple models, including a pre-trained TabNet model and an optimized XGBoost model.
-
-### Explainability
-Interpretation of model predictions using SHAP (SHapley Additive exPlanations), including variations like Kernel SHAP and Tree SHAP.
-
-### Local and Global Explainability
-Analysis of individual predictions and exploration of global model behavior.
+1. Dataset Preprocessing- data Integration, data cleaning, and feature engineering.
+2. Modelling - Developed and optimized multiple models, including Logistic Regression, Random Forest, and XGBoost. A pre-trained TabNet model also included.
+3. Evaluation- Evaluated the performance of models 
+4. Interpreting models using SHAP- using SHAP (SHapley Additive exPlanations), including variations like Kernel SHAP and Tree SHAP to analyze models
 
 ## Reference:
 For in-depth reference on SHAP, consult the following links:
