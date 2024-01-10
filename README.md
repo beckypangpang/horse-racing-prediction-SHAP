@@ -19,6 +19,10 @@ We use different versions of SHAP, like Kernel SHAP and Tree SHAP, to analyze ou
 3. Evaluation- Evaluated the performance of models 
 4. Interpreting models using SHAP- using SHAP (SHapley Additive exPlanations), including variations like Kernel SHAP and Tree SHAP to analyze models
 
+
+## Key findings:
+- All 3 classification models excel in accurately identifying class 0, indicating losing the race. These models demonstrate strong performance, achieving a high F1-score of 0.87 for class 0. However, they struggle to correctly identify instances of class 1, which means winning the race
+- 
 ## Reference:
 For in-depth reference on SHAP, consult the following links:
 
